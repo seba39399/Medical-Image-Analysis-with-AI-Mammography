@@ -49,8 +49,8 @@ You can use this project either in **Google Colab** or your **local environment*
 ### 💻 Option 2: Run Locally
 1. Clone the repository:
   ```bash
-  git clone https://github.com/your-username/your-repository-name.git
-  cd your-repository-name
+  git clone [https://github.com/your-username/your-repository-name.git](https://github.com/pocheche50/porfin.git)
+  cd porfin.git
   ```
 
 2. Install dependencies:
