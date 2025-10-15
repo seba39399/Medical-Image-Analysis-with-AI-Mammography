@@ -13,3 +13,61 @@ This project focuses on **radiomics-based medical image analysis** to build and 
 By extracting **quantitative imaging biomarkers**—such as intensity, texture, shape, and spatial descriptors—this project aims to convert qualitative medical images into structured, high-dimensional information for use in **machine learning** models capable of identifying and classifying pathological patterns.
 
 ---
+## 🎯 Objectives
+
+- 📊 **Standardize the processing pipeline** for medical images (e.g., DICOM or NRRD formats) using reproducible preprocessing and feature extraction steps based on PyRadiomics.  
+- 🧩 **Extract and organize radiomic features** (first-order statistics, texture matrices such as GLCM, GLRLM, GLSZM, NGTDM, GLDM, and shape descriptors).  
+- 🏷️ **Integrate metadata and clinical labels** to enable training of ML/DL classifiers for diagnostic support.  
+- 🧠 **Evaluate the discriminative power** of radiomic biomarkers for non-invasive diagnosis, prognosis, or treatment response assessment.  
+- 🧪 Ensure methodological **rigor and reproducibility** with proper feature standardization, selection strategies, and robust evaluation metrics.
+
+---
+
+## 🧰 Tech Stack & Libraries
+
+- Python 3.8+  
+- [PyRadiomics](https://pyradiomics.readthedocs.io/)  
+- NumPy / Pandas  
+- scikit-learn  
+- OpenCV  
+- Matplotlib / Seaborn
+
+---
+
+## ⚙️ Installation
+
+You can use this project either in **Google Colab** or your **local environment**.
+
+### 🪐 Option 1: Run on Google Colab
+1. Upload the notebook (`.ipynb`) to Colab.  
+2. Install the required libraries:
+   ```bash
+   !pip install pyradiomics numpy pandas scikit-learn opencv-python matplotlib seaborn
+   ```
+3. Run the cells directly — no additional configuration required.
+
+### 💻 Option 2: Run Locally
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/your-username/your-repository-name.git
+  cd your-repository-name
+  ```
+
+2. Install dependencies:
+ ```bash
+pip install pyradiomics numpy pandas scikit-learn opencv-python matplotlib seaborn
+```
+
+3. Open the notebook with Jupyter or VS Code and run the cells.
+
+---
+
+## 📥Dataset & Preprocessing
+
+-Compatible formats: DICOM (.dcm) and NRRD (.nrrd)
+
+-Automatic loading and preprocessing of images.
+
+-Radiomic feature extraction through PyRadiomics.
+
+-Structured tabular dataset creation for ML analysis.
