@@ -64,10 +64,10 @@ pip install pyradiomics numpy pandas scikit-learn opencv-python matplotlib seabo
 
 ## 📥Dataset & Preprocessing
 
--Compatible formats: DICOM (.dcm) and NRRD (.nrrd)
--Automatic loading and preprocessing of images.
--Radiomic feature extraction through PyRadiomics.
--Structured tabular dataset creation for ML analysis.
+ - Compatible formats: DICOM (.dcm) and NRRD (.nrrd)
+ - Automatic loading and preprocessing of images.
+ - Radiomic feature extraction through PyRadiomics.
+ - Structured tabular dataset creation for ML analysis.
 
 ---
 
@@ -75,21 +75,21 @@ pip install pyradiomics numpy pandas scikit-learn opencv-python matplotlib seabo
 
 Radiomic features extracted:
 
--First-order statistics
--GLCM (Gray Level Co-occurrence Matrix)
--GLRLM (Gray Level Run Length Matrix)
--GLSZM (Gray Level Size Zone Matrix)
--NGTDM (Neighborhood Gray Tone Difference Matrix)
--GLDM (Gray Level Dependence Matrix)
--Shape descriptors
+ - First-order statistics
+ - GLCM (Gray Level Co-occurrence Matrix)
+ - GLRLM (Gray Level Run Length Matrix)
+ - GLSZM (Gray Level Size Zone Matrix)
+ - NGTDM (Neighborhood Gray Tone Difference Matrix)
+ - GLDM (Gray Level Dependence Matrix)
+ - Shape descriptors
 
 ---
 
 ## 🤖 Machine Learning Pipeline
 
--Preprocessing: Feature standardization & dimensionality reduction (PCA).
--Modeling: Initial experiments with K-Nearest Neighbors (KNN).
--Evaluation: Accuracy, precision, recall, F1-score, and confusion matrix.
+ - Preprocessing: Feature standardization & dimensionality reduction (PCA).
+ - Modeling: Initial experiments with K-Nearest Neighbors (KNN).
+ - Evaluation: Accuracy, precision, recall, F1-score, and confusion matrix.
 
 ---
 
@@ -109,11 +109,11 @@ y_pred = model.predict(X_test_scaled)
 
 ## 📊 Evaluation Metrics
 
--✅ Accuracy
--🧮 Precision
--📈 Recall
--🧠 F1-Score
--🔎 Confusion Matrix Visualization
+ - ✅ Accuracy
+ - 🧮 Precision
+ - 📈 Recall
+ - 🧠 F1-Score
+ - 🔎 Confusion Matrix Visualization
 
 ---
 
@@ -121,8 +121,8 @@ y_pred = model.predict(X_test_scaled)
 
 👨‍💻 Juan Sebastian Peña Valderrama
 
--Biomedical Engineer & Artificial Intelligence Specialist. 
--Radiomics & Imaging Processing Enthusiast.
--Medical Imaging Analysis Researcher.
+ - Biomedical Engineer & Artificial Intelligence Specialist. 
+ - Radiomics & Imaging Processing Enthusiast.
+ - Medical Imaging Analysis Researcher.
 
 📬 Contributions, suggestions, and pull requests are welcome!
