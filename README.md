@@ -8,9 +8,11 @@
 
 ## 🧭 Project Overview
 
-This project focuses on **radiomics-based medical image analysis** to build and structure a robust dataset of radiomic features for supervised classification problems.
+This project focuses on radiomics-based medical image analysis, aiming to build and structure a robust and reproducible dataset of radiomic features to address supervised classification problems in the medical imaging domain.
 
-By extracting **quantitative imaging biomarkers**—such as intensity, texture, shape, and spatial descriptors—this project aims to convert qualitative medical images into structured, high-dimensional information for use in **machine learning** models capable of identifying and classifying pathological patterns.
+Radiomics is a powerful approach that involves the high-throughput extraction of quantitative features from medical images, transforming visual patterns into measurable and analyzable data. By capturing intensity distributions, texture heterogeneity, shape descriptors, and spatial relationships, this project bridges the gap between traditional image interpretation and advanced computational analysis.
+
+The resulting structured dataset enables the development of machine learning and deep learning models capable of identifying, classifying, and potentially predicting pathological conditions in a non-invasive and data-driven way.
 
 ---
 ## 🎯 Objectives
