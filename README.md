@@ -1,2 +1,15 @@
-# Medical-Image-Analysis-with-AI-Mammography
-This is a radiomics-based project focused on extracting quantitative imaging biomarkers from mammography scans to support supervised classification tasks. It standardizes image preprocessing, feature extraction (intensity, texture, shape), and integrates clinical labels to enable the development of machine learning models for diagnostic support.
+# 🧠 Medical Image Analysis with AI — Radiomics Project
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![PyRadiomics](https://img.shields.io/badge/PyRadiomics-Enabled-orange)](https://pyradiomics.readthedocs.io/)
+[![Machine Learning](https://img.shields.io/badge/ML-Supervised-green)](https://scikit-learn.org/)
+
+---
+
+## 🧭 Project Overview
+
+This project focuses on **radiomics-based medical image analysis** to build and structure a robust dataset of radiomic features for supervised classification problems.
+
+By extracting **quantitative imaging biomarkers**—such as intensity, texture, shape, and spatial descriptors—this project aims to convert qualitative medical images into structured, high-dimensional information for use in **machine learning** models capable of identifying and classifying pathological patterns.
+
+---
